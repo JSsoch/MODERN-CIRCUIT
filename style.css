@@ -32,3 +32,71 @@ html {
 	font-weight: 500;
 	font-size: 2rem;
 }
+/*       ENCABEZADO        */
+.container-hero{
+	background-color: var(--background-color);
+}
+
+.hero{
+	display: flex;
+		justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+}
+
+.costumer-support{
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.costumer-support i{
+	font-size: 3rem;
+}
+
+.content-customer-support{
+	display: flex;
+	flex-direction: column;
+}
+
+.container-logo{
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.container-logo i{
+	font-size: rem8;
+}
+
+.container-logo h1 a{
+	text-decoration: none;
+	color: #000;
+	font-size: 3rem;
+	text-transform: uppercase;
+	letter-spacing: -1x;
+}
+
+.container-user{
+	display:flex;
+	gap:1rem;
+	cursor: pointer;
+}
+
+.container-user .fa-user{
+	font-size: 3rem;
+	color: var(--primary-color);
+	padding-right: 2.5rem;
+	border-rigth: 1px solid #e2e2e2;
+}
+
+.container-user .fa-basket-shopping{
+	font-size: 3rem;
+	color: var(--primary-color);
+	padding-left: 1rem;
+}
+
+.content-shopping-cart{
+	display: flex;
+	flex-direction: column;
+}
