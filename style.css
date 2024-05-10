@@ -388,33 +388,13 @@ html {
 /*        CONTENIDO     */
 .main-content {
 	background-color: var(--background-color);
-}/*       CATEGORIAS      */
 
-.top-categories {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	margin-bottom: 3rem;
-}
 
-.container-categories {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 3rem;
-}/*       CATEGORIAS      */
-
-.top-categories {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	margin-bottom: 3rem;
-}
-
-.container-categories {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 3rem;
-}/*       CATEGORIAS      */
+.category-components {
+	background-image: linear-gradient(#00000080, #00000080),
+		url('img/componentes.jpg');
+	backgroun
+/*       CATEGORIAS      */
 
 .top-categories {
 	display: flex;
